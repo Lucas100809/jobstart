@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Painel da Empresa | JobStart</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="container navbar">
+
+            <a href="index.html" class="logo">
+                Job<span>Start</span>
+            </a>
+
+            <nav class="nav">
+                <a href="index.html">Início</a>
+                <a href="vagas.html">Vagas</a>
+                <a href="empresa.html">Painel</a>
+                <a href="#" id="logoutEmpresa">Sair</a>
+                <button onclick="sair()" class="logout-button">
+    Sair
+</button>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="dashboard-header">
+
+            <div class="container">
+
+                <span>ÁREA DA EMPRESA</span>
+
+                <h1>
+                    Olá, <span id="nomeEmpresa">Empresa</span>! 🏢
+                </h1>
+
+                <p>
+                    Gerencie suas vagas e acompanhe os candidatos.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="dashboard-section">
+
+            <div class="container">
+
+                <div class="dashboard-title">
+
+                    <div>
+                        <h2>Minhas vagas</h2>
+
+                        <p>
+                            Veja suas oportunidades e os candidatos inscritos.
+                        </p>
+                    </div>
+
+                    <a href="nova-vaga.html" class="primary-button">+ Nova vaga</a>
+                </div>
+
+
+                <div id="companyJobsContainer">
+
+                    <p>
+                        Carregando vagas...
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="index.html" class="logo">
+                    Job<span>Start</span>
+                </a>
+
+                <p>
+                    Conectando jovens talentos às primeiras oportunidades.
+                </p>
+
+            </div>
+
+            <div>
+                <p>© 2026 JobStart</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+
